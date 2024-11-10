@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <!-- ImageView untuk logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_herpath" />
+
+    <!-- Text Field untuk Email -->
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="120dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background" />
+
+    <!-- Text Field untuk Password -->
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background" />
+
+
+</LinearLayout>
